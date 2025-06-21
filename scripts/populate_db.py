@@ -62,11 +62,9 @@ def criar_dados_fake(produtos, vendedores, regioes, quantidade=500):
 if __name__ == '__main__':
 
     Base.metadata.create_all(bind=engine)
-    db = SessionLocal()
     vendedores, regioes, produtos = seed_dados_fake()
     vendas = criar_dados_fake(produtos, vendedores, regioes)
-    db.add_all(vendas)
-    db.commit()
-    db.close()
-
+    with SessionLocal() as db:
+        db.add_all(vendas)
+        db.commit()
     print("Tabela criada e populada com 500 vendas fake!")
