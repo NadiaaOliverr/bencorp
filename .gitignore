@@ -1,0 +1,10 @@
+# Ambiente virtual
+venv/
+.env/
+.venv/
+
+# Bytecode Python
+__pycache__/
+
+# Arquivos temporários
+.vscode/
