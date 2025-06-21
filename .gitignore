@@ -11,3 +11,11 @@ __pycache__/
 
 # Arquivos de credenciais
 .env
+
+# Arquivos ainda não trabalhados
+README.md
+docker-compose.yml
+Dockerfile
+data/
+tests/
+etl.py
