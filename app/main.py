@@ -8,7 +8,7 @@ app = FastAPI(
         "API desenvolvida para o case da Bencorp. "
         "Permite realizar operações de CRUD de vendas com validações de dados, "
         "integração com banco de dados relacional (PostgreSQL) e endpoints para ingestão e processamento "
-        "de dados (ETL). Tem suporte a paginação e filtros."
+        "de dados (ETL). Tem suporte a paginação, importação, exportação e filtros."
     )
 )
 
