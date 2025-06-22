@@ -5,9 +5,6 @@ from app.models import Venda
 def get_venda_por_id(db, venda_id):
     return db.query(Venda).filter(Venda.id == venda_id).first()
 
-def get_vendas_paginadas(db, deslocamento, tamanho_pagina):
-    return db.query(Venda).offset(deslocamento).limit(tamanho_pagina).all()
-
 def _tratar_excecao(db, mensagem, e):
     db.rollback()
     raise HTTPException(status_code=500, detail=f"{mensagem}: {e}")
@@ -46,7 +43,11 @@ def deletar_venda_db(db, venda):
     except Exception as e:
         _tratar_excecao(db, "Erro ao deletar venda", e)
 
-def filtrar_e_ordenar_vendas(query, categoria=None, ordenar_por=None, ordem="asc"):
+def filtrar_e_ordenar_vendas(query, categoria=None, vendedor = None, ordenar_por=None, ordem="asc", pagina=1, tamanho_pagina=10):
+    deslocamento = (pagina - 1) * tamanho_pagina
+
+    if vendedor:
+        query = query.filter(Venda.vendedor == vendedor)
     if categoria:
         query = query.filter(Venda.categoria == categoria)
     if ordenar_por:
@@ -60,4 +61,10 @@ def filtrar_e_ordenar_vendas(query, categoria=None, ordenar_por=None, ordem="asc
 
         direcao = asc if ordem == "asc" else desc
         query = query.order_by(direcao(campo))
-    return query
+    
+    vendas = query.offset(deslocamento).limit(tamanho_pagina).all()
+
+    if not vendas:
+        raise HTTPException(status_code=404, detail="Página não encontrada")
+    
+    return vendas
