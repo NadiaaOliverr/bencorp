@@ -48,4 +48,4 @@ jobs:
             --platform managed \
             --allow-unauthenticated \
             --add-cloudsql-instances ${{ secrets.GCP_CLOUDSQL_INSTANCE_NAME }} \
-            --set-env-vars DATABASE_URL=${{ secrets.DATABASE_URL_PROD }}
+            --set-env-vars DATABASE_URL=${{ secrets.DATABASE_URL }}
