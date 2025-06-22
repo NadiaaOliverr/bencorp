@@ -1,5 +1,5 @@
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from sqlalchemy import String, Integer, Date, DECIMAL, DateTime, func
+from sqlalchemy import String, Integer, Date, DECIMAL, DateTime, Numeric, func
 from datetime import date
 
 class Base(DeclarativeBase):
@@ -11,7 +11,7 @@ class Venda(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     produto: Mapped[str] = mapped_column(String(100), nullable=False)
     categoria: Mapped[str] = mapped_column(String(50), nullable=False)
-    preco: Mapped[float] = mapped_column(DECIMAL(10, 2), nullable=False)
+    preco: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)
     quantidade: Mapped[int] = mapped_column(Integer, nullable=False)
     data_venda: Mapped[date] = mapped_column(Date, nullable=False)
     vendedor: Mapped[str] = mapped_column(String(100), nullable=False)
