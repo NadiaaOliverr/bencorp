@@ -44,8 +44,9 @@ jobs:
         run: |
           gcloud run deploy bencorp-api \
             --image $IMAGE_NAME \
-            --region ${{ secrets.GCP_REGION }}
+            --region ${{ secrets.GCP_REGION }} \
             --platform managed \
             --allow-unauthenticated \
+            --port 8080 \
             --add-cloudsql-instances ${{ secrets.GCP_CLOUDSQL_INSTANCE_CONNECTION_NAME }} \
             --set-env-vars DATABASE_URL=${{ secrets.DATABASE_URL }}
