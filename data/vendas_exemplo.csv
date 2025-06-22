@@ -1,0 +1,101 @@
+produto,categoria,preco,quantidade,data_venda,vendedor,regiao
+Cama Box Casal Ortobom,Casa,2062.64,2,2025-04-11,Sr. João Pedro Oliveira,Nordeste
+Vestido Zara Floral,Roupas,4688.98,4,2025-05-25,Sr. Danilo Monteiro,Nordeste
+Headset HyperX Cloud,Eletrônicos,1053.08,3,2025-03-26,Clara Pacheco,Norte
+Sofá Retrátil 3 Lugares,Casa,2829.76,5,2025-04-16,Rebeca da Conceição,Norte
+Smartphone Samsung Galaxy,Eletrônicos,3606.03,2,2025-04-11,Rafaela Fonseca,Sudeste
+Livro Python Avançado,Livros,4131.61,5,2025-04-14,Rebeca da Conceição,Sul
+Raquete de Tênis Wilson,Esportes,184.39,1,2024-12-31,Maya Guerra,Centro-Oeste
+Vestido Zara Floral,Roupas,3747.01,1,2025-05-29,Dom Brito,Nordeste
+Armário Cozinha Itatiaia,Casa,2072.46,5,2025-05-17,Dom Brito,Sul
+Headset HyperX Cloud,Eletrônicos,749.46,4,2025-04-13,Sr. João Pedro Oliveira,Nordeste
+Notebook Dell Inspiron,Eletrônicos,3311.2,4,2025-01-23,Vitória Campos,Sudeste
+Cama Box Casal Ortobom,Casa,2215.12,4,2025-02-13,Dr. Benjamin Machado,Nordeste
+Bicicleta Caloi 29,Esportes,2323.3,2,2025-05-08,Clara Pacheco,Norte
+Bola de Futebol Nike,Esportes,4935.72,5,2025-06-11,Dr. Benjamin Machado,Sul
+Livro Python Avançado,Livros,2040.67,1,2025-04-12,Vitória Campos,Sul
+Notebook Dell Inspiron,Eletrônicos,3903.61,1,2025-05-03,Clara Pacheco,Nordeste
+Cama Box Casal Ortobom,Casa,1670.85,2,2025-04-09,Rafaela Fonseca,Centro-Oeste
+Mesa de Jantar 6 Cadeiras,Casa,3713.8,1,2025-02-14,Rebeca da Conceição,Centro-Oeste
+Armário Cozinha Itatiaia,Casa,3352.06,5,2025-02-21,Vitória Campos,Sul
+Bicicleta Caloi 29,Esportes,1686.33,4,2025-01-14,Rafaela Fonseca,Centro-Oeste
+Mesa de Jantar 6 Cadeiras,Casa,4980.04,5,2025-01-04,Rebeca da Conceição,Centro-Oeste
+Vestido Zara Floral,Roupas,1118.77,2,2025-05-04,Dr. Benjamin Machado,Sul
+Livro Clean Code,Livros,3333.15,1,2025-03-17,Clara Pacheco,Norte
+Fone de Ouvido JBL,Eletrônicos,791.61,5,2025-06-12,Maya Guerra,Nordeste
+Bola de Futebol Nike,Esportes,1789.15,4,2025-04-15,Dr. Benjamin Machado,Nordeste
+Tênis Puma Runner,Roupas,269.87,1,2025-03-20,Maya Guerra,Centro-Oeste
+Cama Box Casal Ortobom,Casa,265.93,1,2025-05-07,Sr. João Pedro Oliveira,Sul
+Notebook Dell Inspiron,Eletrônicos,3958.37,3,2025-04-22,Clara Pacheco,Norte
+Livro Python Avançado,Livros,3143.89,4,2025-01-14,Dr. Benjamin Machado,Centro-Oeste
+Sofá Retrátil 3 Lugares,Casa,971.44,1,2025-05-31,Vitória Campos,Sul
+Mesa de Jantar 6 Cadeiras,Casa,800.78,4,2025-04-02,Dom Brito,Norte
+Smartphone Samsung Galaxy,Eletrônicos,2054.18,4,2024-12-27,Sr. Danilo Monteiro,Nordeste
+Smartphone Samsung Galaxy,Eletrônicos,113.28,1,2025-05-02,Dom Brito,Norte
+Livro Clean Code,Livros,3485.07,2,2025-01-19,Clara Pacheco,Centro-Oeste
+Tênis Puma Runner,Roupas,1018.84,4,2025-02-04,Clara Pacheco,Centro-Oeste
+Calça Jeans Levi's,Roupas,2888.77,2,2025-05-20,Dr. Benjamin Machado,Sul
+Liquidificador Philips Walita,Casa,4483.14,1,2025-06-06,Rafaela Fonseca,Centro-Oeste
+Liquidificador Philips Walita,Casa,1822.97,4,2025-05-24,Rafaela Fonseca,Nordeste
+Monitor LG UltraWide,Eletrônicos,4623.39,2,2025-06-16,Clara Pacheco,Centro-Oeste
+Livro Python Avançado,Livros,983.66,2,2025-01-07,Vitória Campos,Sul
+Notebook Dell Inspiron,Eletrônicos,3177.33,3,2025-03-25,Dom Brito,Centro-Oeste
+Jaqueta Nike Sportswear,Roupas,224.25,4,2025-01-24,Maya Guerra,Sul
+Jaqueta Nike Sportswear,Roupas,3828.42,1,2025-02-04,Dom Brito,Norte
+Monitor LG UltraWide,Eletrônicos,4650.63,4,2025-03-31,Dr. Benjamin Machado,Sudeste
+Smartphone Samsung Galaxy,Eletrônicos,2175.12,1,2025-06-06,Dr. Benjamin Machado,Sul
+Livro Clean Code,Livros,2906.82,4,2025-05-28,Rafaela Fonseca,Nordeste
+Calça Jeans Levi's,Roupas,1405.46,1,2025-05-04,Clara Pacheco,Sul
+Raquete de Tênis Wilson,Esportes,3880.82,3,2025-02-12,Vitória Campos,Sudeste
+Calça Jeans Levi's,Roupas,1085.9,2,2024-12-27,Dom Brito,Sul
+Raquete de Tênis Wilson,Esportes,2769.83,1,2025-04-06,Vitória Campos,Norte
+Jaqueta Nike Sportswear,Roupas,2375.45,5,2025-04-03,Vitória Campos,Centro-Oeste
+Cama Box Casal Ortobom,Casa,1313.89,5,2025-03-17,Maya Guerra,Nordeste
+Camiseta Adidas,Roupas,1029.76,4,2025-05-07,Dom Brito,Norte
+Sofá Retrátil 3 Lugares,Casa,2187.62,4,2025-05-10,Clara Pacheco,Centro-Oeste
+Jaqueta Nike Sportswear,Roupas,4385.86,1,2025-03-03,Clara Pacheco,Nordeste
+Notebook Dell Inspiron,Eletrônicos,1313.38,3,2025-01-14,Dom Brito,Nordeste
+Bicicleta Caloi 29,Esportes,4865.19,3,2024-12-25,Sr. João Pedro Oliveira,Sudeste
+Livro Python Avançado,Livros,1248.13,1,2025-04-02,Sr. Danilo Monteiro,Sul
+Monitor LG UltraWide,Eletrônicos,1261.27,5,2025-03-01,Vitória Campos,Sudeste
+Sofá Retrátil 3 Lugares,Casa,1553.42,5,2025-04-29,Sr. Danilo Monteiro,Norte
+Jaqueta Nike Sportswear,Roupas,4088.78,5,2025-06-20,Maya Guerra,Sudeste
+Headset HyperX Cloud,Eletrônicos,4635.47,2,2025-05-30,Dr. Benjamin Machado,Centro-Oeste
+Livro Python Avançado,Livros,817.41,4,2025-01-06,Dom Brito,Sul
+Cama Box Casal Ortobom,Casa,533.21,2,2025-04-21,Vitória Campos,Nordeste
+Bicicleta Caloi 29,Esportes,3253.06,1,2025-04-29,Rafaela Fonseca,Centro-Oeste
+Tênis Puma Runner,Roupas,1830.15,1,2025-03-11,Vitória Campos,Sul
+Monitor LG UltraWide,Eletrônicos,942.18,5,2025-05-14,Maya Guerra,Sul
+Livro Python Avançado,Livros,3410.94,5,2025-04-18,Vitória Campos,Centro-Oeste
+Tênis Puma Runner,Roupas,4014.23,2,2025-01-03,Rafaela Fonseca,Sul
+Livro Clean Code,Livros,2482.41,2,2025-04-02,Rafaela Fonseca,Sul
+Smartphone Samsung Galaxy,Eletrônicos,1925.8,1,2025-05-29,Maya Guerra,Norte
+Bicicleta Caloi 29,Esportes,1314.48,2,2025-01-04,Rebeca da Conceição,Centro-Oeste
+Mesa de Jantar 6 Cadeiras,Casa,2276.18,2,2025-05-26,Rafaela Fonseca,Nordeste
+Livro Clean Code,Livros,2752.09,5,2025-05-22,Vitória Campos,Sudeste
+Livro Clean Code,Livros,1493.72,1,2025-01-16,Rafaela Fonseca,Sudeste
+Mesa de Jantar 6 Cadeiras,Casa,4509.01,1,2025-04-03,Sr. Danilo Monteiro,Sudeste
+Vestido Zara Floral,Roupas,2654.54,4,2025-04-18,Dr. Benjamin Machado,Centro-Oeste
+Mesa de Jantar 6 Cadeiras,Casa,2282.17,5,2025-01-18,Sr. Danilo Monteiro,Sul
+Bicicleta Caloi 29,Esportes,4520.51,3,2025-05-11,Sr. Danilo Monteiro,Sul
+Livro Clean Code,Livros,110.49,4,2025-04-13,Sr. Danilo Monteiro,Nordeste
+Headset HyperX Cloud,Eletrônicos,1437.44,3,2025-01-31,Otto da Mata,Sul
+Vestido Zara Floral,Roupas,1414.35,2,2025-06-15,Dom Brito,Nordeste
+Cama Box Casal Ortobom,Casa,2325.08,3,2025-01-23,Vitória Campos,Nordeste
+Tênis Puma Runner,Roupas,2511.18,4,2025-05-18,Rebeca da Conceição,Norte
+Monitor LG UltraWide,Eletrônicos,446.12,1,2025-05-22,Rebeca da Conceição,Sudeste
+Monitor LG UltraWide,Eletrônicos,1975.83,4,2025-04-04,Rafaela Fonseca,Sudeste
+Raquete de Tênis Wilson,Esportes,4259.3,2,2024-12-27,Clara Pacheco,Norte
+Livro Python Avançado,Livros,2790.13,5,2025-03-20,Rafaela Fonseca,Sudeste
+Smartphone Samsung Galaxy,Eletrônicos,4419.95,4,2025-01-31,Dr. Benjamin Machado,Sul
+Headset HyperX Cloud,Eletrônicos,2845.05,3,2025-05-19,Dom Brito,Sul
+Liquidificador Philips Walita,Casa,1161.66,2,2025-04-13,Rafaela Fonseca,Norte
+Livro Clean Code,Livros,4068.02,3,2025-02-10,Rafaela Fonseca,Centro-Oeste
+Raquete de Tênis Wilson,Esportes,4698.35,2,2025-04-30,Clara Pacheco,Sul
+Tênis Puma Runner,Roupas,1695.13,5,2025-02-09,Sr. Danilo Monteiro,Nordeste
+Vestido Zara Floral,Roupas,531.28,3,2025-03-18,Otto da Mata,Sudeste
+Notebook Dell Inspiron,Eletrônicos,-1500.0,2,2025-06-22,João da Silva,Sudeste
+,Eletrônicos,2000.0,1,2025-06-22,Maria da Silva,Norte
+Mesa de Jantar 6 Cadeiras,Casa,1000.0,0,2025-06-22,Carlos Souza,Sul
+Monitor LG UltraWide,Eletrônicos,1500.0,1,2025-07-22,Ana Paula,Sudeste
+Notebook Dell Inspiron,Eletrônicos,3000.0,1,2025-06-22,João da Silva,Sudeste
