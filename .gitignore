@@ -17,4 +17,3 @@ README.md
 docker-compose.yml
 Dockerfile
 tests/
-etl.py
