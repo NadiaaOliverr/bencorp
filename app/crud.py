@@ -1,9 +1,25 @@
 from fastapi import HTTPException
 from sqlalchemy import asc, desc
 from app.models import Venda
+import pandas as pd
 
 def get_venda_por_id(db, venda_id):
     return db.query(Venda).filter(Venda.id == venda_id).first()
+
+def criar_dataframe_com_dados_banco(db):
+    vendas = db.query(Venda).all()
+    if not vendas:
+        raise HTTPException(status_code=404, detail="Nenhuma venda encontrada no banco")
+
+    df = pd.DataFrame([{
+        "categoria": v.categoria,
+        "preco": float(v.preco),
+        "quantidade": v.quantidade,
+        "data_venda": v.data_venda,
+        "vendedor": v.vendedor
+    } for v in vendas])
+
+    return df
 
 def _tratar_excecao(db, mensagem, e):
     db.rollback()

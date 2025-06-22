@@ -3,7 +3,7 @@ import pandas as pd
 from fastapi.responses import StreamingResponse
 from datetime import datetime
 from fastapi import HTTPException
-from app.crud import get_dataframe
+from app.crud import criar_dataframe_com_dados_banco
 
 
 def _ler_csv(arquivo_csv):
@@ -43,7 +43,7 @@ def _validar_regras_negocio(df):
 
 
 def _get_dataframe_filtrado_por_mes(db, mes):
-    df = get_dataframe(db)
+    df = criar_dataframe_com_dados_banco(db)
 
     df['data_venda'] = pd.to_datetime(df['data_venda'], errors='coerce')
     df['mes'] = df['data_venda'].dt.to_period('M').astype(str)
@@ -109,7 +109,7 @@ def gerar_top_vendedores_mensal(db, mes: str, top: int = 3):
 
 
 def exportar_dados(db, formato, categoria, vendedor):
-    df = get_dataframe(db)
+    df = criar_dataframe_com_dados_banco(db)
 
     if categoria:
         df = df[df['categoria'] == categoria]
