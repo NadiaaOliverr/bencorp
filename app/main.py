@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import vendas, etl
+from app.routes import etl_routes, vendas_routes
 
 app = FastAPI(
     title="Case Bencorp",
@@ -12,5 +12,5 @@ app = FastAPI(
     )
 )
 
-app.include_router(vendas.router)
-app.include_router(etl.router)
+app.include_router(vendas_routes.router)
+app.include_router(etl_routes.router)
