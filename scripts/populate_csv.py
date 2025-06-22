@@ -43,7 +43,6 @@ def seed_dados_ruins():
     vendas.append(["","Eletrônicos", 2000.00, 1, datetime.today().date(), "Maria da Silva", "Norte" ])
     vendas.append([ "Mesa de Jantar 6 Cadeiras", "Casa", 1000.00, 0, datetime.today().date(), "Carlos Souza", "Sul" ])
     vendas.append([ "Monitor LG UltraWide", "Eletrônicos", 1500.00, 1, (datetime.today() + timedelta(days=30)).date(), "Ana Paula", "Sudeste" ])
-    vendas.append([ "Notebook Dell Inspiron", "Eletrônicos", 3000.00, 1, datetime.today().date(), "João da Silva", "Sudeste" ])
 
     return vendas
 
@@ -51,7 +50,7 @@ def criar_dados_csv(produtos, vendedores, regioes, quantidade=100):
 
     vendas = []
 
-    for _ in range(quantidade - 5):
+    for _ in range(quantidade - 4):
         produto = choice(list(produtos.keys()))
         hoje = datetime.today()
         data_limite = randint(0, 180)
