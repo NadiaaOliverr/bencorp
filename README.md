@@ -7,12 +7,12 @@ Este repositório implementa uma solução para disponibilizar endpoints de um C
 *Acesse a API na nuvem por [essa URL](https://bencorp-api-796987028771.southamerica-east1.run.app/vendas) e aplique os filtros ou faça `posts` conforme necessário.*
 
 ## 📚 Índice
-- [🏗️ Arquitetura](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#%EF%B8%8F-arquitetura)
-- [🗂️ Endpoints disponíveis](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#%EF%B8%8F-endpoints-dispon%C3%ADveis)
-- [🛠️ Decisões de implementação](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#%EF%B8%8F-decis%C3%B5es-de-implementa%C3%A7%C3%A3o)
-- [🚀 Funcionalidades extras que foram implementadas](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#-funcionalidades-extras-que-foram-implementadas)
-- [⚡ Como executar](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#-como-executar)
-- [💡 Ideias futuras](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#-ideias-futuras)
+- [🏗️ Arquitetura](https://github.com/NadiaaOliverr/bencorp?tab=readme-ov-file#%EF%B8%8F-arquitetura)
+- [🗂️ Endpoints disponíveis](https://github.com/NadiaaOliverr/bencorp?tab=readme-ov-file#%EF%B8%8F-endpoints-dispon%C3%ADveis)
+- [🛠️ Decisões de implementação](https://github.com/NadiaaOliverr/bencorp?tab=readme-ov-file#%EF%B8%8F-decis%C3%B5es-de-implementa%C3%A7%C3%A3o)
+- [🚀 Funcionalidades extras que foram implementadas](https://github.com/NadiaaOliverr/bencorp?tab=readme-ov-file#-funcionalidades-extras-que-foram-implementadas)
+- [⚡ Como executar](https://github.com/NadiaaOliverr/bencorp?tab=readme-ov-file#-como-executar)
+- [💡 Ideias futuras](https://github.com/NadiaaOliverr/bencorp?tab=readme-ov-file#-ideias-futuras)
 
 ### 🏗️ Arquitetura
 
