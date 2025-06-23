@@ -187,10 +187,7 @@ python -m scripts.populate_db
 **Passo 6: Acessar as rotas** 
 
 - Documentação: `http://localhost:8080/docs`
-- Para testar os endpoints do tipo `POST`, `PUT` ou `DELETE`, você pode importar o JSON de rotas no Insomnia ou Postman para testar.
-
-    ![](https://i.imgur.com/w7iaP9U.png)
-
+- Para testar os endpoints do tipo `POST`, `PUT` ou `DELETE`, você pode [importar o JSON de rotas](https://github.com/NadiaaOliverr/bencorp/blob/main/endpoints-insomnia-postman.json) no Insomnia ou Postman para testar.
 
 ### 💡 Ideias futuras
 
