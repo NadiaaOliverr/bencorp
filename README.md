@@ -4,9 +4,9 @@ Este repositório implementa uma solução para disponibilizar endpoints de um C
 
 ![](https://i.imgur.com/vBhG2Ve.png)
 
-*Acesse a API na nuvem por [essa URL](https://bencorp-api-796987028771.southamerica-east1.run.app/) e aplique os filtros ou faça `posts` conforme necessário.*
+*Acesse a API na nuvem por [essa URL](https://bencorp-api-796987028771.southamerica-east1.run.app/vendas) e aplique os filtros ou faça `posts` conforme necessário.*
 
-## Índice
+## 📚 Índice
 - [🏗️ Arquitetura](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#%EF%B8%8F-arquitetura)
 - [🗂️ Endpoints disponíveis](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#%EF%B8%8F-endpoints-dispon%C3%ADveis)
 - [🛠️ Decisões de implementação](https://github.com/NadiaaOliverr/teste/tree/main?tab=readme-ov-file#%EF%B8%8F-decis%C3%B5es-de-implementa%C3%A7%C3%A3o)
@@ -19,27 +19,6 @@ Este repositório implementa uma solução para disponibilizar endpoints de um C
 A solução foi estruturada para rodar **tanto em ambiente local quanto em produção na nuvem**, mantendo a paridade de configuração via Docker e variáveis de ambiente.
 
 ![](https://i.imgur.com/H9Qd1b8.png)
-
-**Ambiente local**
-
-Neste ambiente, a aplicação pode ser executada de duas maneiras:
-
-1. **Execução direta:** via Uvicorn, usando Python virtualenv.
-2. **Execução conteinerizada:** via `docker-compose.yml`, que sobe três serviços:
-   - PostgreSQL (banco de dados relacional)
-   - API FastAPI
-   - PgAdmin (interface de administração do banco)
-
-Para ambos precisaremos configurar corretamente o arquivo [`.env`]() para definir credenciais e strings de conexão.
-
-**Ambiente de Produção**
-
-Em produção, o projeto segue uma arquitetura **serverless** utilizando Google Cloud Platform:
-
-- **GitHub Actions:** orquestra o build da imagem Docker e o push para o Artifact Registry.
-- **Cloud Run:** realiza o deploy da imagem de forma automática.
-- **Google Cloud SQL:** banco de dados PostgreSQL acessado via IP público.
-- **Secrets:** variáveis gerenciadas no _enviromments secrets_ no repositório GitHub.
 
 ### 🗂️ Endpoints disponíveis
 
